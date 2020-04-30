@@ -478,7 +478,9 @@ mark,
 
 .img-fluid {
   max-width: 100%;
+  min-width: 332px;
   height: auto;
+  max-height: 220px;
 }
 
 .img-thumbnail {
@@ -10127,6 +10129,7 @@ h3 {
   transition: all 0.2s ease-in-out;
   opacity: 0;
   background-color: rgba(26, 188, 156, 0.9);
+  max-height: 220px;
 }
 .portfolio .portfolio-item .portfolio-item-caption:hover {
   opacity: 1;
